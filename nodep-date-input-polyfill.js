@@ -4,7 +4,7 @@ import Input from './input.js';
 
 // Run the above code on any <input type="date"> in the document, also on dynamically created ones.
 // Check if type="date" is supported.
-if(!Input.supportsDateInput()) {
+if(true || !Input.supportsDateInput()) {
   const init = ()=> {
     Picker.instance = new Picker();
     Input.addPickerToDateInputs();
