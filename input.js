@@ -145,6 +145,7 @@ export default class Input {
     }
 
     for(let i = 0; i < length; ++i) {
+      dateInputs[i].type = 'text';
       new Input(dateInputs[i]);
     }
   }
